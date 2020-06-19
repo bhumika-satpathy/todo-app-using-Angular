@@ -1,0 +1,20 @@
+img {
+    border-radius: 50%;
+    height: 210px;
+    width: 200px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 320px;
+}
+
+.text {
+    margin-top: 18px;
+    color: rgb(94, 207, 245);
+    font-size: 23px;
+    font-family: sans-serif;
+}

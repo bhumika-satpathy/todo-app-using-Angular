@@ -1,0 +1,18 @@
+<div class="todos">
+    <h2 class="title">ALL TO-DOS</h2>
+    <div class="container">
+        <div class="listc" *ngIf="items.length>0 && !secondPage">
+            <div class="list" *ngFor="let item of items; index as i">
+                <div class="item">{{item.title}}</div>
+                <img src="../../assets/img/delete.png" (click)="remove(item.userID)"/>
+            </div>
+        </div>
+        <div *ngIf="secondPage">
+            <textarea (change)="chaneNoOfChars()"></textarea>
+            {{this.noOfChars}}
+        </div>
+    </div>
+    <div class="new">
+        <button (click)="addItem($event)">{{buttonName}}</button>
+    </div>
+</div>

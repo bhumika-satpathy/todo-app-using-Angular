@@ -1,0 +1,79 @@
+.todos{
+    width: 1350px;
+    height: 1025px;
+    background-image: linear-gradient(white, rgb(92,200,243));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(92,200,243);
+    font-family: sans-serif;
+    margin-top: 200px;
+    font-size: 41px;
+}
+
+.listc{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    width: 820px;
+    overflow: scroll;
+}
+
+.list{
+    height: 72px;
+    width: 97%;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 8px;
+    color: rgb(92,200,243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.item{
+    padding-left: 10px;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92,200,243);
+    font-weight: bold;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+textarea{
+    height: 330px;
+    width: 590px;
+}
